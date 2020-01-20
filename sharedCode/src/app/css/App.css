@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header{
+  height: 100px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding-top:20px; 
+}
+
+main{
+  background-color:lightgray;
+  margin-top:20px; 
+}
+
+.userentry{
+  margin: 0px 5px;
+  background: white;
+  color: black;
+  border: 1px solid #C0BABA;
+  width: 500px;
+  height: 200px;
+}
+
+.userentry input{
+  width: 90%;
+  align-self: center;
+  margin-left:20px;
+}
+
+.userentry button{
+  color: white;
+  margin:20px 20px;
+  width: 90%;
+  border-radius: 0px; 
+  align-self: center;
+}
+
+.notesdisplay{
+  padding: 10px;
+  width: 400px;
+}
+
+.notesdisplay ul li {
+  padding: 0px 5px;
+  border-bottom: 1px solid darkgrey;
+  list-style-type: none;
+  color: black;
+  text-align: left;
+}
+
+.notesdisplay ul{
+  text-align: left;
+}
+
+.notesdisplay li:nth-child(odd) {
+  padding-left: 10px;
+  text-align: left;
+  padding-right: 0;
+  float: left;
+}
+
+.notesdisplay li:nth-child(even) {
+  padding-right: 10px;
+  text-align: left;
+  padding-left: 0;
+  float: right;
+}
+
+.dispensed {
+  float: left;
+  border-bottom:1px solid grey; 
+}
